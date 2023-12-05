@@ -17,7 +17,7 @@
         <activity
             android:name=".UpdateTweetActivity"
             android:exported="false"
-            android:parentActivityName=".DescriptionTweetActivity"/>
+            android:parentActivityName=".MainAPIActivity"/>
         <activity
             android:name=".DescriptionTweetActivity"
             android:exported="false"
