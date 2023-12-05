@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SemiFinalAPI</string>
+    <string name="add_tweet" />
+    <string name="enter_tweet_name">Enter Tweet Name</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="save_tweet">Save Tweet</string>
+    <string name="tweet_name">Tweet Name</string>
+    <string name="tweet_description">Tweet Description</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="update_tweet">Update Tweet</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/tweetName"
+        android:inputType="textAutoComplete"
+        android:textStyle="bold"
+        android:hint="@string/tweet_name"
+        android:autofillHints="name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:inputType="textAutoComplete"
+        android:hint="@string/tweet_description"
+        android:autofillHints="name"
+        android:id="@+id/description"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tweetName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:text="@string/save_tweet"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
